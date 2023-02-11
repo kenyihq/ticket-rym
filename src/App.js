@@ -1,8 +1,16 @@
 import './App.css';
+import Index from './components/Index.js';
+import TextDownloader from './components/TextDownloader.js';
 
 function App() {
   return (
-    <h1>HOLA</h1>
+
+    <div>
+      <TextDownloader />
+      <Index />
+      
+    </div>
+
   );
 }
 
